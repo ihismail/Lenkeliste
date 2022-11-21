@@ -10,6 +10,10 @@ public class Lenkeliste <T> implements Liste<T> {
 
         //hodet har ikke innhold
         public Node() {}
+
+        public T innhold(){
+            return INNHOLD;
+        }
     }
 
     public Lenkeliste() {
@@ -23,16 +27,26 @@ public class Lenkeliste <T> implements Liste<T> {
     }
 
     public void leggTil(T x) {
-        Node denne = HODE.neste;
-        while(denne!=null) {
-            denne = denne.neste;
+        Node denne = HODE;
+        while(denne.NESTE!=null) {
+            denne = denne.NESTE;
         }
-        Node ny = new Node(T);
-        denne.neste = ny;
+        denne.NESTE = new Node(x);
         ANT_ELM++;
     }
 
-    public T hent() {}
+    public T hent() {
+        return HODE.NESTE.innhold();
+    }
 
-    public T fjern() {}
+    public T fjern() {
+        if(ANT_ELM>0) {
+            Node FJERNET = HODE.NESTE;
+            ANT_ELM--;
+            if(FJERNET.NESTE!=null) {
+                HODE.NESTE = FJERNET.NESTE;
+            } else {return FJERNET.innhold();}
+        } else {return null;}
+        return null;
+    }
 }

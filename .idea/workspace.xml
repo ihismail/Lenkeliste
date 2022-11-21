@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e83d70b-a4a1-479e-92e8-124f2f26272b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lenkeliste.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lenkeliste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Liste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UgyldigListeindeks.java" afterDir="false" />
+    <list default="true" id="3e83d70b-a4a1-479e-92e8-124f2f26272b" name="Changes" comment="opprettet README, lenkeliste-klasse, interface liste og UgyldigListeindeks-exception.">
+      <change afterPath="$PROJECT_DIR$/src/Stabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lenkeliste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lenkeliste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +31,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,8 +46,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668687139343</updated>
-      <workItem from="1668687141769" duration="3647000" />
+      <workItem from="1668687141769" duration="4006000" />
+      <workItem from="1669027392517" duration="2036000" />
     </task>
+    <task id="LOCAL−00001" summary="opprettet README, lenkeliste-klasse, interface liste og UgyldigListeindeks-exception.">
+      <created>1668690929932</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1668690929932</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,5 +71,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="opprettet README, lenkeliste-klasse, interface liste og UgyldigListeindeks-exception." />
+    <option name="LAST_COMMIT_MESSAGE" value="opprettet README, lenkeliste-klasse, interface liste og UgyldigListeindeks-exception." />
   </component>
 </project>
