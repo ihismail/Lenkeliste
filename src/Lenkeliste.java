@@ -1,6 +1,6 @@
 public class Lenkeliste <T> implements Liste<T> {
     Node HODE;
-    private class Node {
+    protected class Node {
         T INNHOLD;
         Node NESTE;
 
@@ -40,13 +40,11 @@ public class Lenkeliste <T> implements Liste<T> {
     }
 
     public T fjern() {
-        if(ANT_ELM>0) {
-            Node FJERNET = HODE.NESTE;
+        if(HODE.NESTE!=null) {
+            Node midl = HODE.NESTE;
+            HODE.NESTE = midl.NESTE;
             ANT_ELM--;
-            if(FJERNET.NESTE!=null) {
-                HODE.NESTE = FJERNET.NESTE;
-            } else {return FJERNET.innhold();}
-        } else {return null;}
-        return null;
+            return midl.innhold();
+        } else {throw new UgyldigListeindeks(-1);}
     }
 }
