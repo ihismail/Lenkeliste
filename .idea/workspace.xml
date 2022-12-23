@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e83d70b-a4a1-479e-92e8-124f2f26272b" name="Changes" comment="opprettet fjern()og hent() i Lenkeliste. startet på klasse stabel&lt;T&gt;">
+    <list default="true" id="3e83d70b-a4a1-479e-92e8-124f2f26272b" name="Changes" comment="forbedringer av fjern- og leggTil-metoder. kjører TestStabel uten problemer.">
+      <change afterPath="$PROJECT_DIR$/src/Koe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lenkeliste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lenkeliste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stabel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +34,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ismae/OneDrive/Dokumenter/Prosjekt/Java/Lenkeliste/src/TestKoe.java",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="TestStabel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestStabel" />
@@ -67,7 +68,7 @@
       <workItem from="1668687141769" duration="4006000" />
       <workItem from="1669027392517" duration="15098000" />
       <workItem from="1670493187875" duration="1098000" />
-      <workItem from="1671711863691" duration="4960000" />
+      <workItem from="1671711863691" duration="9693000" />
     </task>
     <task id="LOCAL−00001" summary="opprettet README, lenkeliste-klasse, interface liste og UgyldigListeindeks-exception.">
       <created>1668690929932</created>
@@ -81,7 +82,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1669029514872</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="forbedringer av fjern- og leggTil-metoder. kjører TestStabel uten problemer.">
+      <created>1671719236040</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1671719236040</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="opprettet README, lenkeliste-klasse, interface liste og UgyldigListeindeks-exception." />
     <MESSAGE value="opprettet fjern()og hent() i Lenkeliste. startet på klasse stabel&lt;T&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="opprettet fjern()og hent() i Lenkeliste. startet på klasse stabel&lt;T&gt;" />
+    <MESSAGE value="forbedringer av fjern- og leggTil-metoder. kjører TestStabel uten problemer." />
+    <option name="LAST_COMMIT_MESSAGE" value="forbedringer av fjern- og leggTil-metoder. kjører TestStabel uten problemer." />
   </component>
 </project>

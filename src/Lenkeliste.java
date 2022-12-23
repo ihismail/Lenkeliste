@@ -28,7 +28,7 @@ public class Lenkeliste <T> implements Liste<T> {
 
     public void leggTil(T x) {
         Node denne = HODE;
-        while(denne.NESTE!=null) {
+        while(denne.NESTE != null) {
             denne = denne.NESTE;
         }
         denne.NESTE = new Node(x);
@@ -40,7 +40,7 @@ public class Lenkeliste <T> implements Liste<T> {
     }
 
     public T fjern() {
-        if(HODE.NESTE!=null) {
+        if(HODE.NESTE != null) {
             Node midl = HODE.NESTE;
             HODE.NESTE = midl.NESTE;
             ANT_ELM--;
